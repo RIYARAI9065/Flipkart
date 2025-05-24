@@ -10,7 +10,8 @@ function ProductCard({ product, onViewDetails, onAddToCart }) {
       <Link to="/details">
         <button onClick={onViewDetails}>View Details</button>
       </Link>
-      <button onClick={onAddToCart}>Add to Cart</button>
+      <button onClick={onAddToCart}> Add to Cart</button>
+     
     </div>
   );
 }
